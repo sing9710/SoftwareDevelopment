@@ -11,14 +11,14 @@ public class Studentlist {
         s2.setYesr(123);
         System.out.println("name " + s2.getYesr());
         Scanner sc = new Scanner(System.in);
-        for (i = 0; i < s1.length; i++) {
+        for (i = 1; i < s1.length; i++) {
             s1[i] = new Student();
             System.out.println("Enter id");
             s1[i].setId(sc.nextInt());
             System.out.println("Enter year");
             s1[i].setYesr(sc.nextInt());
         }
-        for (i = 0; i < s1.length; i++) {
+        for (i = 1; i < s1.length; i++) {
             System.out.println("Id= " + s1[i].getId());
             System.out.println("Name= " + s1[i].getYesr());
         }
