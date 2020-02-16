@@ -8,7 +8,7 @@ public class Studentlist {
         int i;
         Student[] s1 = new Student[3];
         Student s2 = new Student();
-        s2.setName("nav");
+        s2.setName("navjot");
         System.out.println("name " + s2.getName());
         Scanner sc = new Scanner(System.in);
         for (i = 0; i < s1.length; i++) {
