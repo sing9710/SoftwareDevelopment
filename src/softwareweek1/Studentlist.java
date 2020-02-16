@@ -13,7 +13,7 @@ public class Studentlist {
         Scanner sc = new Scanner(System.in);
         for (i = 0; i < s1.length; i++) {
             s1[i] = new Student();
-            System.out.println("Enter id");
+            System.out.println("Enter class");
             s1[i].setId(sc.nextInt());
             System.out.println("Enter name");
             s1[i].setName(sc.next());
