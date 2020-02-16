@@ -9,7 +9,7 @@ public class Studentlist {
         Student[] s1 = new Student[3];
         Student s2 = new Student();
         s2.setYesr(123748787898498);
-        System.out.println("name " + s2.getYesr());
+        System.out.println("abhijeet " + s2.getYesr());
         Scanner sc = new Scanner(System.in);
         for (i = 1; i < s1.length; i++) {
             s1[i] = new Student();
