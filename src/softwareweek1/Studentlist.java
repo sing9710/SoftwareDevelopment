@@ -15,7 +15,7 @@ public class Studentlist {
             s1[i] = new Student();
             System.out.println("Enter class");
             s1[i].setId(sc.nextInt());
-            System.out.println("Enter name");
+            System.out.println("Enter data");
             s1[i].setName(sc.next());
         }
         for (i = 0; i < s1.length; i++) {
