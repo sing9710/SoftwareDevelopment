@@ -19,7 +19,7 @@ public class Studentlist {
             s1[i].setName(sc.next());
         }
         for (i = 0; i < s1.length; i++) {
-            System.out.println("Id= " + s1[i].getId());
+            System.out.println("class= " + s1[i].getId());
             System.out.println("data= " + s1[i].getName());
         }
     }
