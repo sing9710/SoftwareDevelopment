@@ -3,7 +3,7 @@ package softwareweek1;
 public class Student {
 
     private int id;
-    private String name;
+    private int yesr;
 
     public int getId() {
         return id;
@@ -13,11 +13,11 @@ public class Student {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public int getYesr() {
+        return yesr;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setYesr(int yesr) {
+        this.yesr = yesr;
     }
 }

@@ -6,7 +6,7 @@ public class CardsTest {
         Cards c1 = new Cards();
         String arr[] = new String[52];
         int a;
-        String suit[] = {"Heart", "Spades", "Clubs", "Diamonds"};
+        String suit[] = {"Heart", "Spades","Diamonds"};
         for (int i = 0; i <= 51; i++) {
             a = (int) (Math.random() * 4);
             switch (a) {
